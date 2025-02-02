@@ -16,6 +16,21 @@
         font-weight: 400;
         font-style: normal;
         }
+        .shadow-dance-text {
+        /* font-size: 4rem; */
+        color: #179800;
+        text-shadow: 5px 5px 0 #1f2937, 10px 10px 0 #EFEBE3;
+        animation: shadow-dance 2s infinite;
+        }
+
+    @keyframes shadow-dance {
+        0%, 100% {
+        text-shadow: 5px 5px 0 #EFEBE3, 10px 10px 0 #1f2937;
+        }
+        50% {
+        text-shadow: -5px -5px 0 #EFEBE3, -10px -10px 0 #1f2937
+        }
+    }
     </style>
     <script>
         tailwind.config = {
@@ -116,17 +131,17 @@
           </div>
     </NAV>
     <!-- Header Hero Section -->
-    <HEADER class="bg-[#EFEBE3]">
+    <HEADER class="bg-[#EFEBE3] pt-10">
         <div class="hero">
             <div class="hero-content text-center flex-col py-0 pt-4">
-              <div class="max-w-md">
+              <div class="max-w-md ">
                 <h1 class="text-5xl font-bold">Freshness <span class="text-[#179800]">You Can
-                    Count</span>  On, Prices You’ll Love!</h1>
+                    Count</span>  On, Prices You’ll <span class="shadow-dance-text">Love!</span></h1>
                 <p class="py-6">
                     Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
                 </p>
               </div>
-              <div class="max-w-2xl">
+              <div class="max-w-2xl hover:animate-spin">
                 <img src="c2-assets/hero-vegetables.png" alt="Vegetables spilling out of a brown paper bag">
             </div>
             </div>
@@ -426,9 +441,40 @@
                  </div>
             </div>
          </section>
+        <!-- FAQ -->
+         <Section class="my-24 max-w-[1500px] mx-auto p-2">
+            <!-- Title -->
+            <h1 class="my-10 text-4xl font-bold text-[#179800] ">
+                Frequently Asked Question (FAQ)
+            </h1>
+            <div class="collapse collapse-plus bg-[#EFEBE3] my-4">
+                <input type="radio" name="my-accordion-3" checked="checked" />
+                <div class="collapse-title text-xl font-medium">
+                    Where do you deliver?
+                </div>
+                <div class="collapse-content">
+                  <p>We deliver inside Dhaka Metropolitan Area and some parts of Gazipur</p>
+                </div>
+            </div>
+            <div class="collapse collapse-plus bg-[#EFEBE3] my-4">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">Do you have a physical store?</div>
+                <div class="collapse-content">
+                  <p>No, but stay connected through our newsletter for some exciting surprise soon. 😉</p>
+                </div>
+            </div>
+            <div class="collapse collapse-plus bg-[#EFEBE3] my-4">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title text-xl font-medium">
+                    How long do you take to deliver?
+                </div>
+                <div class="collapse-content">
+                  <p>We can deliver your order within 30mins unless any unavoidable circumstances arises.</p>
+                </div>
+            </div>
+         </Section>
     </MAIN>
     <!-- Footer Section -->
-    
     <FOOTER class="mt-72 bg-[#179800] relative p-2">
         <div class="card lg:card-side bg-[#EFEBE3] shadow-xl p-10 max-w-[1500px] mx-auto relative -top-[214px] lg:max-h-[428px]">
             <div class="w-1/2 mx-auto">
