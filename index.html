@@ -132,11 +132,11 @@
           </div>
     </HEADER>
     <!-- Main Body -->
-    <MAIN class=" ">
+    <MAIN>
         <!-- Services -->
-        <section class="mt-24 max-w-[1500px] mx-auto">
+         <section class="my-24 max-w-[1500px] mx-auto">
             <div class="p-2">
-                <h1 class="text-2xl font-bold text-[#179800]">
+                <h1 class="text-4xl font-bold text-[#179800]">
                 Services
                 </h1>
                 <!-- Cards -->
@@ -185,17 +185,20 @@
                     </div>
                 </div>
             </div>
-        </section>
+         </section>
         <!-- Popular -->
-         <section class="mt-24"></section>
+         <section class="my-24">
+
+         </section>
         <!-- Products -->
-         <section class="mt-24 bg-[#EFEBE3] ">
+         <section class="my-24 bg-[#EFEBE3] ">
             <div class="p-2 max-w-[1500px] mx-auto">
-                <h1 class="mt-10 text-2xl font-bold text-[#179800] ">
+                <!-- Title -->
+                <h1 class="mt-10 text-4xl font-bold text-[#179800] ">
                     Products
                 </h1>
                 <!-- Cards Container -->
-                <div class="mt-10 flex flex-col xl:flex-row gap-8 xl:max-h-[400px]">
+                <div class="my-10 flex flex-col xl:flex-row gap-8 xl:max-h-[400px]">
                     <!-- Highlight Card -->
                     <div class="card bg-gradient-to-br from-lime-600 to-lime-100 text-primary-content w-full xl:w-1/3">
                         <div class="card-body pt-10">
@@ -384,10 +387,117 @@
                 </div>
             </div>
          </section>
+        <!-- Offers -->
+         <section class="my-24">
+            <div class="p-2 max-w-[1500px] mx-auto">
+                <!-- Title -->
+                <h1 class="mt-10 text-4xl font-bold text-[#179800] ">
+                    Offers
+                </h1>
+                <!-- Cards -->
+                 <div class="flex flex-col lg:flex-row gap-4 my-10 ">
+                    <!-- Card#1 -->
+                    <div class="rounded-xl lg:w-7/12 bg-[#115414] flex justify-between h-[344px]">
+                        <div class="flex flex-col items-center justify-center p-6 gap-4">
+                            <img src="c2-assets/dawat-logo.png" alt="" class="">
+                            <div class="skeleton h-[64px] bg-[#2A4D97]">
+                                <h3 class="text-white text-xl py-4 px-8 ">Cook Exotic Dishes</h3>
+                            </div>
+                            <p class="text-2xl text-white">Up to <span class="font-bold">20% OFF</span></p>
+                        </div>
+                        <div class="flex items-end">
+                            <img src="c2-assets/dawat-mock-up.png" alt="" class=""> 
+                        </div>
+                    </div>
+                    <!-- Card#2 -->
+                    <div class="rounded-xl lg:w-5/12 bg-[#102861] flex justify-between h-[344px]">
+                        <div class="flex flex-col items-center justify-center p-6 gap-4">
+                            <img src="c2-assets/india-gate-logo.png" alt="" class="">
+                            <div class="skeleton h-[64px] bg-[#2A4D97]">
+                                <h3 class="text-white text-xl py-4 px-8 ">World's No.1 Rice</h3>
+                            </div>
+                            <p class="text-2xl text-white">Up to <span class="font-bold">40% OFF</span></p>
+                        </div>
+                        <div class="flex items-end">
+                            <img src="c2-assets/india-gate-mock-up.png" alt="" class="mr-10">
+                        </div>
+                    </div>
+                 </div>
+            </div>
+         </section>
     </MAIN>
     <!-- Footer Section -->
-    <FOOTER>
-
+    
+    <FOOTER class="mt-72 bg-[#179800] relative p-2">
+        <div class="card lg:card-side bg-[#EFEBE3] shadow-xl p-10 max-w-[1500px] mx-auto relative -top-[214px] ">
+            <figure class="w-1/2 mx-auto p-4">
+              <img
+                src="c2-assets/vegetable-busket.png"
+                alt="Album" class=""/>
+            </figure>
+            <div class="card-body flex flex-col justify-center items-center lg:items-start">
+              <h2 class="card-title text-4xl font-bold">Get Grocery News!</h2>
+              <h4 class="text-sm h-auto">Exclusive cooking tips, ticks, product deals and more.</h4>
+              <input type="email" placeholder="Your Email" class="input input-bordered w-full max-w-xs" />
+              <div class="card-actions">
+                <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg btn-active btn-primary bg-[#179800] border-[#179800] hover:bg-[#117400] hover:border-[#117400] text-white px-12">Subscribe!</button>
+              </div>
+            </div>
+        </div>
+        <footer class="footer text-base-content p-10 max-w-[1500px] mx-auto">
+            
+            <nav class="text-white w-96">
+                <img src="c2-assets/logo-footer.png" alt="">
+                <p class="">
+                    Discover a world of treats, toys, and essentials handpicked for your furry friends
+                </p>
+            </nav>
+            <nav class="text-white">
+              <h6 class="footer-title">Company</h6>
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Contact</a>
+              <a class="link link-hover">Jobs</a>
+              <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav class="text-white lg:place-self-center lg:justify-self-end">
+              <h6 class="footer-title ">Follow Us</h6>
+              <div class="grid grid-flow-col gap-4">
+                <a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                      d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+                  </svg>
+                </a>
+                <a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                      d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
+                  </svg>
+                </a>
+                <a>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="fill-current">
+                    <path
+                      d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+                  </svg>
+                </a>
+              </div>
+            </nav>
+        </footer>
     </FOOTER>
 </body>
 </html>
