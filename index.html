@@ -35,7 +35,7 @@
 <body class="sora-regular">
     <!-- Navigation Bar -->
     <NAV class="bg-[#EFEBE3] ">
-        <div class="navbar max-w-[1100px] mx-auto">
+        <div class="navbar max-w-[1500px] mx-auto">
             <!-- Nav Logo -->
             <div class="navbar-start w-1/4">
               <img src="c2-assets/logo-header.png" alt="Nature's Platter Logo">
@@ -88,7 +88,7 @@
                     </div>
                     <ul
                     tabindex="0"
-                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-40 p-2 shadow ">
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-40 p-2 shadow bg-[#efebe3e8]">
                         <li><a>Product</a></li>
                         <li><a>Services</a></li>
                         <li><a>Contact Us</a></li>
@@ -103,10 +103,10 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
                             </svg>
                         </button>
-                        <button class="btn btn-outline btn-primary m-1">
+                        <button class="btn btn-outline m-1 border-[#179800] hover:bg-[#179800] hover:border-[#117400] text-[#179800] hover:text-white">
                             Login
                         </button>
-                        <button class="btn btn-active btn-primary m-1">
+                        <button class="btn btn-active btn-primary m-1 bg-[#179800] border-[#179800] hover:bg-[#117400] hover:border-[#117400] text-white">
                             Register
                         </button>
                     </ul>
@@ -132,9 +132,258 @@
           </div>
     </HEADER>
     <!-- Main Body -->
-    <MAIN>
-        <h1 class="text-7xl font-bold">Hello</h1>
-        <p class="text-xl">Hello, Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, voluptatum! Eveniet, sint totam! Modi ipsum reprehenderit aspernatur, iusto illo totam at a velit corporis tempora repellendus nemo voluptates, fugiat explicabo atque inventore iste esse minima officia aperiam nobis ducimus porro quaerat laudantium. Esse minima exercitationem perferendis sequi inventore magnam adipisci!</p>
+    <MAIN class=" ">
+        <!-- Services -->
+        <section class="mt-24 max-w-[1500px] mx-auto">
+            <div class="p-2">
+                <h1 class="text-2xl font-bold text-[#179800]">
+                Services
+                </h1>
+                <!-- Cards -->
+                <div class="flex flex-col gap-4 md:flex-row mt-10">
+                    <!-- Card#1 24/7 Services -->
+                    <div class="card bg-[#EFEBE3] shadow-xl md:w-1/3">
+                    <figure class="px-10 pt-10">
+                        <div class="avatar">
+                            <div class="w-24 rounded-full">
+                            <img src="c2-assets/service.png" />
+                            </div>
+                        </div>
+                    </figure>
+                    <div class="card-body items-center text-center">
+                    <h2 class="card-title">24/7 Services</h2>
+                    <p>You need something at the middle of the night? we will be there for you, no matter the time and places.</p>
+                    </div>
+                    </div>
+                    <!-- Card#2 Fast Delivery-->
+                    <div class="card bg-[#EFEBE3] shadow-xl md:w-1/3">
+                        <figure class="px-10 pt-10">
+                            <div class="avatar">
+                                <div class="w-24 rounded-full">
+                                <img src="c2-assets/delivery.png" />
+                                </div>
+                            </div>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                        <h2 class="card-title">Fast Delivery</h2>
+                        <p>Imagine you're in the middle of cooking and you're out of tomato, no problem! Just call us. we offer super fast delivery.</p>
+                        </div>
+                    </div>
+                    <!-- Card#3 Healthy Product-->
+                    <div class="card bg-[#EFEBE3] shadow-xl md:w-1/3">
+                        <figure class="px-10 pt-10">
+                            <div class="avatar">
+                                <div class="w-24 rounded-full">
+                                    <img src="c2-assets/healthy.png"/>
+                                </div>
+                                </div>
+                        </figure>
+                        <div class="card-body items-center text-center">
+                            <h2 class="card-title">Healthy Products</h2>
+                            <p>We offer a huge variety of product category which are all natural and healthy products for your healthy lifestyle.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Popular -->
+         <section class="mt-24"></section>
+        <!-- Products -->
+         <section class="mt-24 bg-[#EFEBE3] ">
+            <div class="p-2 max-w-[1500px] mx-auto">
+                <h1 class="mt-10 text-2xl font-bold text-[#179800] ">
+                    Products
+                </h1>
+                <!-- Cards Container -->
+                <div class="mt-10 flex flex-col xl:flex-row gap-8 xl:max-h-[400px]">
+                    <!-- Highlight Card -->
+                    <div class="card bg-gradient-to-br from-lime-600 to-lime-100 text-primary-content w-full xl:w-1/3">
+                        <div class="card-body pt-10">
+                            <h2 class="card-title text-5xl text-white">30% Off</h2>
+                            <p class="text-white w-3/4">Get a huge discount on fresh vegetable from  11am to 1pm.</p>
+                            <div class="card-actions">
+                                <button class="btn text-[#179800]">
+                                    Buy Now
+                                </button>
+                            </div>
+                            <!-- <div class="">
+                                <img src="c2-assets/vegetable-offer.png" alt="" class="  ml-auto mr-2 -mt-16">
+                            </div> -->
+                        </div>
+                        <div class=" ">
+                            <img src="c2-assets/vegetable-offer.png" alt="" class="mr-2 ml-auto -mt-24">
+                        </div>
+                    </div>
+                    <!-- Small Cards -->
+                    <div class="w-full xl:w-2/3 grid grid-cols-2 xl:grid-cols-3 gap-1 lg:gap-4">
+                        <!-- Card#1 -->
+                        <div class="card card-side bg-base-100 shadow-xl md:h-[118px]">
+                            <div class="avatar">
+                                <div class="w-[86px] rounded-xl m-2 bg-[#EFEBE3]">
+                                  <img src="c2-assets/onion.png" />
+                                </div>
+                              </div>
+                            <div class="card-body p-3">
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="orange" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-orange-400">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    <p>4.8/5</p>
+                                </div>
+                                <h2 class="card-title">Onion - 1KG</h2>
+                                <h2 class="font-semibold">BDT 60/-</h2>
+                            </div>
+                        </div>
+                        <!-- Card#2 -->
+                        <div class="card card-side bg-base-100 shadow-xl md:h-[118px]">
+                            <div class="avatar">
+                                <div class="w-[86px] rounded-xl m-2 bg-[#EFEBE3]">
+                                  <img src="c2-assets/potato.png" />
+                                </div>
+                              </div>
+                            <div class="card-body p-3">
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="orange" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-orange-400">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    <p>4.7/5</p>
+                                </div>
+                                <h2 class="card-title">Potato - 1KG</h2>
+                                <h2 class="font-semibold">BDT 25/-</h2>
+                            </div>
+                        </div>
+                        <!-- Card#3 -->
+                        <div class="card card-side bg-base-100 shadow-xl md:h-[118px]">
+                            <div class="avatar">
+                                <div class="w-[86px] rounded-xl m-2 bg-[#EFEBE3]">
+                                  <img src="c2-assets/tomato.png" />
+                                </div>
+                              </div>
+                            <div class="card-body p-3">
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="orange" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-orange-400">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    <p>4.5/5</p>
+                                </div>
+                                <h2 class="card-title">Tomato - 1KG</h2>
+                                <h2 class="font-semibold">BDT 80/-</h2>
+                            </div>
+                        </div>
+                        <!-- Card#4 -->
+                        <div class="card card-side bg-base-100 shadow-xl md:h-[118px]">
+                            <div class="avatar">
+                                <div class="w-[86px] rounded-xl m-2 bg-[#EFEBE3]">
+                                  <img src="c2-assets/potato.png" />
+                                </div>
+                              </div>
+                            <div class="card-body p-3">
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="orange" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-orange-400">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    <p>4.7/5</p>
+                                </div>
+                                <h2 class="card-title">Potato - 1KG</h2>
+                                <h2 class="font-semibold">BDT 25/-</h2>
+                            </div>
+                        </div>
+                        <!-- Card#5 -->
+                        <div class="card card-side bg-base-100 shadow-xl md:h-[118px]">
+                            <div class="avatar">
+                                <div class="w-[86px] rounded-xl m-2 bg-[#EFEBE3]">
+                                  <img src="c2-assets/tomato.png" />
+                                </div>
+                              </div>
+                            <div class="card-body p-3">
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="orange" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-orange-400">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    <p>4.5/5</p>
+                                </div>
+                                <h2 class="card-title">tomato - 1KG</h2>
+                                <h2 class="font-semibold">BDT 80/-</h2>
+                            </div>
+                        </div>
+                        <!-- Card#6 -->
+                        <div class="card card-side bg-base-100 shadow-xl md:h-[118px]">
+                            <div class="avatar">
+                                <div class="w-[86px] rounded-xl m-2 bg-[#EFEBE3]">
+                                  <img src="c2-assets/Onion.png" />
+                                </div>
+                              </div>
+                            <div class="card-body p-3">
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="orange" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-orange-400">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    <p>4.8/5</p>
+                                </div>
+                                <h2 class="card-title">Onion - 1KG</h2>
+                                <h2 class="font-semibold">BDT 60/-</h2>
+                            </div>
+                        </div>
+                        <!-- Card#7 -->
+                        <div class="card card-side bg-base-100 shadow-xl md:h-[118px]">
+                            <div class="avatar">
+                                <div class="w-[86px] rounded-xl m-2 bg-[#EFEBE3]">
+                                  <img src="c2-assets/tomato.png" />
+                                </div>
+                              </div>
+                            <div class="card-body p-3">
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="orange" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-orange-400">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    <p>4.5/5</p>
+                                </div>
+                                <h2 class="card-title">tomato - 1KG</h2>
+                                <h2 class="font-semibold">BDT 80/-</h2>
+                            </div>
+                        </div>
+                        <!-- Card#8 -->
+                        <div class="card card-side bg-base-100 shadow-xl md:h-[118px]">
+                            <div class="avatar">
+                                <div class="w-[86px] rounded-xl m-2 bg-[#EFEBE3]">
+                                  <img src="c2-assets/Onion.png" />
+                                </div>
+                              </div>
+                            <div class="card-body p-3">
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="orange" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-orange-400">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    <p>4.8/5</p>
+                                </div>
+                                <h2 class="card-title">Onion - 1KG</h2>
+                                <h2 class="font-semibold">BDT 60/-</h2>
+                            </div>
+                        </div>
+                        <!-- Card#9 -->
+                        <div class="card card-side bg-base-100 shadow-xl md:h-[118px] hidden xl:flex">
+                            <div class="avatar">
+                                <div class="w-[86px] rounded-xl m-2 bg-[#EFEBE3]">
+                                  <img src="c2-assets/Potato.png" />
+                                </div>
+                              </div>
+                            <div class="card-body p-3">
+                                <div class="flex">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="orange" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 text-orange-400">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
+                                    </svg>
+                                    <p>4.7/5</p>
+                                </div>
+                                <h2 class="card-title">Potato - 1KG</h2>
+                                <h2 class="font-semibold">BDT 25/-</h2>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+         </section>
     </MAIN>
     <!-- Footer Section -->
     <FOOTER>
